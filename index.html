@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/priyank logo2.png" class="logo">
+                <ul id="slidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+               
+            </nav>
+            <div class="headerText">
+                <p>Student</p>
+                <h2>Hi, I'm <span>Priyank</span> Khambhati <br>from Surat</h2>
+            </div>
+        </div>
+    </div>
+<!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abtCol1">
+                    <img src="/images/1711439308601.jpg" alt="">
+                </div>
+                <div class="abtCol2">
+                    <h1 class="abtTitle">About Me</h1>
+                    <p>I’m Priyank V. Khambhati, an 18-year-old with a passion for fitness, gaming, and exploring new skills. I enjoy challenging myself by learning technologies like web development and programming while staying committed to personal growth. Outside of my interests in tech, I’m a fitness enthusiast who works out regularly and believes in leading a balanced lifestyle.
+        
+                        I also value creativity and problem-solving, whether it’s in my hobbies or contributing to meaningful initiatives like community projects. I’m driven by curiosity and constantly strive to improve in every aspect of life.
+                    </p>
+                    <div class="tabTitle">
+                        <p class="tabLink activelink" onclick="opentab('skills')" >Skills</p>
+                        <p class="tabLink" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabContents activetab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>html,css,javascript</li>
+                            <li><span>languages</span><br>C programming, SQL</li>
+                            <li><span>Basics</span><br>MS Access,Excel,Word</li>
+                        </ul>
+                    </div>
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>Currently</span><br>BCA degree at CK Pithawala college of commerce-management-computer application</li>
+                            <li><span>2024</span><br>HSC(commerce) at Piperdiwala English Medium High School</li>
+                            <li><span>2022</span><br>SSC at Piperdiwala English Medium High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="section-title">My Projects</h1>
+            <p>Here are a few things I develop:</p>
+            <div class="projects-list project">
+                <div class="projects-item project">
+                    <img src="images/weather-app.png">
+                    <h3>Weather Forecast</h3>
+                    <p>This project is a weather app built with HTML, CSS, and JavaScript, providing real-time weather updates using the OpenWeatherMap API. It includes features like location-based weather and dynamic UI elements for an interactive experience.</p>  
+                    <a href="https://github.com/Priyank404/weather-app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div class="projects-item  project">
+                    <img src="images/curr.png" alt="Gaming">
+                    <h3>Currency Converter</h3>
+                    <p>This project is a currency converter app built with HTML, CSS, and JavaScript. It uses real-time exchange rates to convert currencies and provides a user-friendly interface for quick calculations.</p>
+                    <a href="https://github.com/Priyank404/Currency-Converter"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div class="projects-item  project">
+                    <img src="images/to-do-list.png" alt="Fitness">
+                    <h3>To-Do List</h3>
+                    <p>This project is a to-do list app built with HTML, CSS, and JavaScript. It lets users add, delete, and manage tasks through an interactive interface, making it easier to stay organized</p>
+                    <a href="https://github.com/Priyank404/To-Do-List"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- hobbies -->
+    <div id="hobbies">
+        <div class="container">
+            <h1 class="section-title">My Hobbies</h1>
+            <p>Here are a few things I enjoy doing in my free time:</p>
+            <div class="hobby-list">
+                <div class="hobby-item">
+                    <img src="images/machine-learning.png" alt="Learning">
+                <h3>Learning</h3>
+                <p>I enjoy exploring new skills, including programming, coding, and staying updated with the latest technology trends.</p>                </div>
+                <div class="hobby-item">
+                    <img src="images/gamer.png" alt="Gaming">
+                    <h3>Gaming</h3>
+                    <p>I enjoy playing games that challenge my strategy and reflexes, keeping me sharp and entertained.</p>
+                </div>
+                <div class="hobby-item">
+                    <img src="images/muscles.png" alt="Fitness">
+                    <h3>Fitness</h3>
+                    <p>Staying fit through weight training and building muscle is not just a hobby but a lifestyle I enjoy and thrive in.</p>
+                </div>
+                <div class="hobby-item">
+                    <img src="images/sports.png" alt="Sports">
+                    <h3>Sports</h3>
+                    <p>Engaging in outdoor sports keeps me active and energized, while also fostering teamwork skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>priyank.khambahti.06@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8469479856</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/__._.priyank._.__/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Priyank404"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/priyank-khambhati-872066319/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Final Resume.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="copyright">
+        <p>Copyright © Priyank. Made with <i class="fa-solid fa-heart"></i></p>
+     </div>
+
+    <script src="app.js"></script>
+
+    
+</body>
+</html>
