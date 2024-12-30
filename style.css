@@ -149,7 +149,7 @@ nav ul li a:hover::after{
 
 .tabContents ul li span{
     color: #b54769;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .tabContents{
@@ -396,7 +396,7 @@ form input, form textarea{
         display: none;
     }
 @media only screen and (max-width: 600px){
-    .header{
+    #header{
         background-image: url(images/Untitled\ design.png)
     }
 
