@@ -149,7 +149,7 @@ nav ul li a:hover::after{
 
 .tabContents ul li span{
     color: #b54769;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .tabContents{
@@ -253,7 +253,7 @@ nav ul li a:hover::after{
 }
 
 .projects-item {
-    width: 350px;
+    width: 347px;
     /* height: 350px; */
     background: #1a1a1a; /* Dark gray card background */
     border: 1px solid #333; /* Border matching the theme */
